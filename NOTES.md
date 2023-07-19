@@ -51,13 +51,13 @@ PLAYER X WON!
 
 5 – Jogo termina com um empate
 
+
 Player X:
 X|O|X
 -+-+-
 O|O|X
 -+-+-
 X|X|O
-
 GAME ENDS WITH A DRAW!
 
 
@@ -85,4 +85,12 @@ GAME ENDS WITH A DRAW!
 -teste (retorna o tabuleiro vazio)
 -criar o codigo em produção
 
--
+-criar outra função para verificar vitoria
+## pomodoro2 
+- debito tecnico: 
+    - refatorar codigo para simular entrada das jogadas
+    - trocar formato do tabuleiro para receber entrada das jogadas
+    - criar outra função para verificar vitoria
+    - refatorar teste para receber novo formato do tabuleiro
+
+## pomodoro 3
