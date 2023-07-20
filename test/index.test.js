@@ -13,8 +13,13 @@ describe('jogo da velha', () => {
 
     })
     test('retornar X na primeira posição', () => {
-        const p1 = 1
-         expect((jogodavelha(p1)[0][0])).toStrictEqual("x") 
+        const jogada = 1
+         expect((jogodavelha(jogada)[0][0])).toStrictEqual("x") 
+     })
+
+    test('retornar X na segunda posição', () => {
+        const jogada = 2
+         expect((jogodavelha(jogada)[0][1])).toStrictEqual("x") 
      })
 })
 
