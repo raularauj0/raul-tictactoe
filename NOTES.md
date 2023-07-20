@@ -71,26 +71,29 @@ GAME ENDS WITH A DRAW!
 
 - O Jogo acontece em turnos (após o X jogar o O joga)
 
-- O primeiro jogar que fizer uma diagonal ou horizontal com 3 de seu simbolo ganha o jogo:
-    - Caso o jogador X estiver com 3 X na horizontal o Jogador X vence
-    - Caso o Jogador X estiver com 3 O na diagonal o Jpgador O vence
+- O primeiro jogador que fizer uma diagonal, horizontal ou vertical com 3 de seu simbolo ganha o jogo:
+    - Caso o jogador X estiver com 3 X na horizontal ou vertical o Jogador X vence
+    - Caso o Jogador O estiver com 3 O na diagonal o Jogador O vence
 
-- Caso nenhum jogador consiga fazer uma diagonal ou horizontal o jogo resulta em empate
-    - caso nenhum jogador fizer uma diagonal 3 posições de seu simbolo
+- Caso nenhum jogador consiga fazer uma diagonal, horizontal ou vertical o jogo resulta em empate
 
 ## pomodoro 1
 - descrever o domain
 - criar o codigo base
 
 -teste (retorna o tabuleiro vazio)
--criar o codigo em produção
+-criar o codigo em produção para criar tabuleiro vazio
 
 -criar outra função para verificar vitoria
 ## pomodoro2 
-- debito tecnico: 
+- debito tecnico(foi feito um refactor no codgio pois a implementação antiga do tabuleiro não iria funcionar para o proximo teste): 
     - refatorar codigo para simular entrada das jogadas
     - trocar formato do tabuleiro para receber entrada das jogadas
     - criar outra função para verificar vitoria
     - refatorar teste para receber novo formato do tabuleiro
 
 ## pomodoro 3
+
+- teste (deve retornar X na primeira posição quando p1 for igual a 1)
+- Criar codigo em produção para retornar x na primeria posição quando p1 dor igual a 1
+- 
