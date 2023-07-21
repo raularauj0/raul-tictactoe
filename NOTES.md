@@ -112,6 +112,7 @@ GAME ENDS WITH A DRAW!
 
 ## pomodor 4
 
--
+- teste ( deve retornar jogador x venceu quando tiver uma horizontal com 3 x na primeira coluna ) ✅
+- criar codigo em produção para retorar que o jogador x venceu 🚧
 
-
+- criar codigo em produção para retorar que o jogador x venceu ❌
