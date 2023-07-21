@@ -1,4 +1,3 @@
-
 const jogodavelha = require('../src/index')
 const verificarVitoria =  require('../src/index')
 
@@ -23,6 +22,16 @@ describe('jogo da velha', () => {
      })
 })
 
-describe('teste para verificar a vitoria',() => {
-
+describe('verificar a vitoria',() => {
+    // test('deve retornar jogador x venceu quando tiver uma horizontal com 3 x na primeira ', () => {
+    //     const tabuleiro =  [
+    //         ['x','x','x'],
+    //         [4,5,6],
+    //         [7,8,9]
+    //     ]
+    //     expect((verificarVitoria(tabuleiro)[0])).toBe('jogador x venceu')
+    // })
 })
+
+
+    

@@ -15,8 +15,4 @@ function jogodavelha(jogada){
     return tabuleiro
 }
 
-function verificarVitoria(){
-
-}
-
-module.exports = jogodavelha, verificarVitoria
+module.exports = jogodavelha

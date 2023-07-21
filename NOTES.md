@@ -108,6 +108,10 @@ GAME ENDS WITH A DRAW!
 
 - refatorar (os parametros p1,p2,p3,p4,p5,p6,p7,p8,p9 foram removidos apenas um estava sendo usado) ✅
 
-- Criar codigo em produção para retornar x na segunda posição quando p2 for igual a 2 ✅
+- Criar codigo em produção para retornar x na segunda posição quando jogada for igual a 2 ✅
+
+## pomodor 4
+
+-
 
 
